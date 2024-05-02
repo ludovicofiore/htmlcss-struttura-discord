@@ -1,0 +1,40 @@
+/* regole generali */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* regole intestazione */
+header {
+    background-color: aquamarine;
+    width: 100%;
+    /* min-height: 100px; */
+    padding: 20px;
+}
+
+nav {
+    background-color: orange;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.block-nav {
+    border: 1px solid black;
+    width: 25%;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle {
+    width: 50%;
+}
+
+li {
+    list-style-type: none;
+}
