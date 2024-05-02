@@ -10,7 +10,7 @@ header {
     background-color: aquamarine;
     width: 100%;
     /* min-height: 100px; */
-    padding: 20px;
+    padding: 20px 0;
 }
 
 nav {
@@ -46,12 +46,12 @@ section {
 
 .repeated {
     min-height: 500px;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .container {
     width: 80%;
-    height: 400px;
+    /* min-height: 400px; */
     margin: 0 auto;
     display: flex;
 }
@@ -76,14 +76,14 @@ section {
     background-color: skyblue;
     border: 1px dotted black;
     width: 60%;
-    height: 100%;
+    height: 400px;
 }
 
 .pink {
     background-color: pink;
     border: 1px dotted black;
     width: 40%;
-    height: 100%;
+    height: 400px;
 }
 
 /* regole terza sezione */
@@ -101,5 +101,49 @@ section {
     width: 80%;
     height: 700px;
     margin: 0 auto;
+    border: 1px dotted black;
+}
+
+/* regole footer */
+footer {
+    background-color: rgb(34, 38, 41);
+}
+
+/* regole prima section footer */
+#first-footer {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+#red {
+    background-color: red;
+    width: 35%;
+    height: 500px;
+    border: 1px dotted black;
+}
+
+.credits {
+    background-color: rgb(32, 179, 171);
+    width: calc(65% / 4);
+    height: 500px;
+    border: 1px dotted white;
+}
+
+/* regole seconda section footer */
+
+#block {
+    background-color: aqua;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.buttons {
+    background-color: pink;
+    padding: 5px;
     border: 1px dotted black;
 }
