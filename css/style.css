@@ -21,7 +21,7 @@ nav {
 }
 
 .block-nav {
-    border: 1px solid black;
+    border: 1px dotted black;
     width: 25%;
     padding: 5px;
 }
@@ -37,4 +37,69 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+/* regole generali parte main */
+section {
+    width: 100%;
+}
+
+.repeated {
+    min-height: 500px;
+    padding: 50px;
+}
+
+.container {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* regole prima sezione */
+#first-section {
+    background-color: blue;
+    height: 400px;
+    padding: 50px;
+}
+
+#first-section div {
+    background-color: palevioletred;
+    border: 1px dotted black;
+    width: 65%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+/* regole seconda/quarta sezione */
+.blue {
+    background-color: skyblue;
+    border: 1px dotted black;
+    width: 60%;
+    height: 100%;
+}
+
+.pink {
+    background-color: pink;
+    border: 1px dotted black;
+    width: 40%;
+    height: 100%;
+}
+
+/* regole terza sezione */
+.grey {
+    background-color: lightgrey;
+}
+
+.reverted {
+   flex-direction: row-reverse; 
+}
+
+/* regole quinta sezione */
+#green {
+    background-color: green;
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 1px dotted black;
 }
