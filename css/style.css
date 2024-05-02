@@ -5,22 +5,30 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+section {
+    width: 100%;
+    padding: 50px 0;
+}
+
+
 /* regole intestazione */
 header {
     background-color: aquamarine;
     width: 100%;
-    /* min-height: 100px; */
     padding: 20px 0;
 }
 
-nav {
-    background-color: orange;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-}
-
 .block-nav {
+    background-color: orange;
     border: 1px dotted black;
     width: 25%;
     padding: 5px;
@@ -35,27 +43,16 @@ ul {
     width: 50%;
 }
 
+.right {
+    text-align: right;
+}
+
 li {
     list-style-type: none;
 }
 
-/* regole generali parte main */
-section {
-    width: 100%;
-}
 
-.repeated {
-    min-height: 500px;
-    padding: 50px 0;
-}
-
-.container {
-    width: 80%;
-    /* min-height: 400px; */
-    margin: 0 auto;
-    display: flex;
-}
-
+/* regole parte principale */
 /* regole prima sezione */
 #first-section {
     background-color: blue;
@@ -98,11 +95,11 @@ section {
 /* regole quinta sezione */
 #green {
     background-color: green;
-    width: 80%;
     height: 700px;
-    margin: 0 auto;
     border: 1px dotted black;
 }
+
+
 
 /* regole footer */
 footer {
@@ -130,6 +127,9 @@ footer {
 }
 
 /* regole seconda section footer */
+#second-footer {
+    padding: 0;
+}
 
 #block {
     background-color: aqua;
