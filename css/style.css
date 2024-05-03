@@ -19,19 +19,18 @@ section {
     padding: 50px 0;
 }
 
-
-/* regole intestazione */
-header {
-    background-color: aquamarine;
-    width: 100%;
-    padding: 20px 0;
+a {
+    text-decoration: none;
 }
 
+
+/* regole intestazione */
 .block-nav {
-    background-color: orange;
-    border: 1px dotted black;
     width: 25%;
     padding: 5px;
+    /* DEBUG */
+    background-color: orange;
+    border: 1px dotted black;
 }
 
 ul {
@@ -51,40 +50,51 @@ li {
     list-style-type: none;
 }
 
+#first-section-header {
+    padding: 20px 0;
+    /* DEBUG */
+    background-color: aquamarine;
+}
 
-/* regole parte principale */
-/* regole prima sezione */
-#first-section {
+/* regole seconda sezione header */
+#second-section-header {
+    /* DEBUG */
     background-color: blue;
     height: 400px;
-    padding: 50px;
 }
 
-#first-section div {
+#second-section-header div {
+    width: 65%;
+    margin: 0 auto;
+    /* DEBUG */
+    height: 300px;
     background-color: palevioletred;
     border: 1px dotted black;
-    width: 65%;
-    height: 300px;
-    margin: 0 auto;
 }
 
-/* regole seconda/quarta sezione */
-.blue {
+
+/* regole parte principale */
+
+/* regole prima/terza sezione */
+.image {
+    width: 60%;
+    /* DEBUG */
     background-color: skyblue;
     border: 1px dotted black;
-    width: 60%;
     height: 400px;
 }
 
-.pink {
+.text {
+    /* DEBUG */
+    width: 40%;
     background-color: pink;
     border: 1px dotted black;
-    width: 40%;
     height: 400px;
 }
 
-/* regole terza sezione */
-.grey {
+/* regole seconda sezione */
+.bg-grey {
+    /* DEBUG */
     background-color: lightgrey;
 }
 
@@ -92,8 +102,9 @@ li {
    flex-direction: row-reverse; 
 }
 
-/* regole quinta sezione */
-#green {
+/* regole quarta sezione */
+#big-div {
+    /* DEBUG */
     background-color: green;
     height: 700px;
     border: 1px dotted black;
@@ -112,16 +123,18 @@ footer {
     padding-bottom: 50px;
     border-bottom: 1px solid white;
 }
-#red {
-    background-color: red;
+#social {
     width: 35%;
+    /* DEBUG */
+    background-color: red;
     height: 500px;
     border: 1px dotted black;
 }
 
 .credits {
-    background-color: rgb(32, 179, 171);
     width: calc(65% / 4);
+    /* DEBUG */
+    background-color: rgb(32, 179, 171);
     height: 500px;
     border: 1px dotted white;
 }
@@ -132,18 +145,20 @@ footer {
 }
 
 #block {
-    background-color: aqua;
     width: 100%;
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    /* DEBUG */
+    background-color: aqua;
 
 }
 
 .buttons {
-    background-color: pink;
     padding: 5px;
+    /* DEBUG */
+    background-color: pink;
     border: 1px dotted black;
 }
